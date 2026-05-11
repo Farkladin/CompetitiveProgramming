@@ -59,7 +59,7 @@ inline size_t fast_lower_bound(const long long* arr, size_t n, const long long t
     if (base + 1 < n) base = (arr[base + 1] < target) ? base + 1 : base;
     return base + (arr[base] < target);
 }
- TO SLOW!!
+ TOO SLOW!!
 */
 
 struct Node {
